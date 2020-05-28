@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:title="@string/home"
+            android:id="@+id/nav_home"
+            />
+
+
+        <item
+            android:title="@string/summary_report"
+            android:id="@+id/summary"
+            />
+
+        <item
+            android:title="@string/all_categories"
+            android:id="@+id/allCategories"
+            />
+
+        <item
+            android:title="All Projects"
+            android:id="@+id/allProjects"
+            />
+    </group>
+
+    <item
+        android:title="@string/add">
+
+        <menu>
+            <item
+                android:title="@string/add_transaction"
+                android:id="@+id/addTransaction"
+                />
+            <item
+                android:title="@string/add_categories"
+                android:id="@+id/addCategory"
+                />
+            <item
+            android:title="@string/add_project"
+            android:id="@+id/addProject"
+            />
+        </menu>
+
+
+    </item>
+</menu>

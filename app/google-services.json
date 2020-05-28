@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "662590946277",
+    "firebase_url": "https://samsara-aee01.firebaseio.com",
+    "project_id": "samsara-aee01",
+    "storage_bucket": "samsara-aee01.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:662590946277:android:affa9d74417cb1eb33cd0c",
+        "android_client_info": {
+          "package_name": "org.samsara"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "662590946277-ed4hl7hk60c226fu1qa67qkqgplj5b2f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "org.samsara",
+            "certificate_hash": "a6882004f933906ac5ae1603c338beb76d012fe3"
+          }
+        },
+        {
+          "client_id": "662590946277-u1ms8qi3rnp282i9u8ug23g7d421hgo4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAFzfxoPkn-d1yebKMETOdL8-z3OCVKqAA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "662590946277-u1ms8qi3rnp282i9u8ug23g7d421hgo4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

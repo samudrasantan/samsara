@@ -1,0 +1,76 @@
+<resources>
+
+    <array name="projectTypeArray">
+        <item>Personal</item>
+        <item>Collective</item>
+        <item>Business</item>
+    </array>
+
+    <string name="app_name">samsara</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+    <string name="home_second">Home Second</string>
+    <string name="log_in">Log In</string>
+    <string name="log_out">Log out</string>
+    <string name="project_name">Project Name</string>
+    <string name="submit">Submit</string>
+    <string name="project_type">Project Type</string>
+    <string name="home">Home</string>
+
+
+    <string name="settings">Settings</string>
+    <string name="about_us">About Us</string>
+    <string name="samsar_all_cap">SAMSAR</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="all_transactions">All Transactions</string>
+    <string name="all_categories">All Categories</string>
+    <string name="add">Add</string>
+    <string name="add_transaction">Add Transaction</string>
+    <string name="add_categories">Add Categories</string>
+    <string name="add_project">Add Project</string>
+    <string name="add_a_project">Add a Project</string>
+    <string name="category_name">Category Name</string>
+    <string name="categories">Categories</string>
+    <string name="category">Category</string>
+    <string name="date">Date</string>
+    <string name="expenditure">Expenditure</string>
+    <string name="latest_transactions">Latest Transactions</string>
+    <string name="income">Income</string>
+    <string name="create_a_project">Create a Project +</string>
+    <string name="register_your_first_transaction">Register your first transaction +</string>
+    <string name="collaboration_id">Collaboration Id</string>
+    <string name="collaborate">Collaborate</string>
+    <string name="amount">Amount</string>
+    <string name="transfer">Transfer</string>
+    <string name="account">Account</string>
+    <string name="add_project_hint1">You might wants to add a project first.</string>
+    <string name="add_project_hint2"> A project has a name.
+
+    </string>
+    <string name="add_project_hint3"> And a Type.</string>
+    <string name="add_project_hint4"> Currently There are three types of project available</string>
+    <string name="add_project_hint5"> Single - For single use projects (Not available yet)</string>
+    <string name="add_project_hint6"> Collective - Suitable when two or more people contribute</string>
+    <string name="add_project_hint7"> Business - Suitable for small business (Not available yet)</string>
+
+    <string name="add_project_hint8"> or you might wants to collaborate with others project.</string>
+    <string name="add_project_hint9"> To collaborate first sign in by clicking </string>
+    <string name="add_project_hint10"> in the top bar </string>
+    <string name="add_project_hint11"> Next click</string>
+    <string name="add_project_hint12"> Next COLLABORATE</string>
+    <string name="your_name">Your Name</string>
+    <string name="CategoryName">Category Name</string>
+    <string name="AccountName">Account Name</string>
+    <string name="summary_report">Summary Report</string>
+
+
+</resources>

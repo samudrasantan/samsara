@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="org.samsara.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_nav_home_to_allProjects"
+            app:destination="@id/allProjects" />
+        <action
+            android:id="@+id/action_nav_home_to_addProject"
+            app:destination="@id/addProject" />
+        <action
+            android:id="@+id/action_nav_home_to_summary"
+            app:destination="@id/summary" />
+        <action
+            android:id="@+id/action_nav_home_to_reportCategory"
+            app:destination="@id/reportCategory" />
+        <action
+            android:id="@+id/action_nav_home_to_addTransaction"
+            app:destination="@id/addTransaction" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/allCategories"
+        android:name="org.samsara.category.CategoriesAll"
+        android:label="All Categories"
+        tools:layout="@layout/all_category" >
+        <action
+            android:id="@+id/action_allCategories_to_addCategories"
+            app:destination="@id/addCategory" />
+        <action
+            android:id="@+id/action_allCategories_to_addTransaction"
+            app:destination="@id/addTransaction" />
+        <action
+            android:id="@+id/action_allCategories_to_allProjects"
+            app:destination="@id/allProjects" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="org.samsara.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/addProject"
+        android:name="org.samsara.project.AddProject"
+        android:label="Add Project" >
+        <action
+            android:id="@+id/action_addProject_to_collaborate"
+            app:destination="@id/collaborate" />
+        <action
+            android:id="@+id/action_addProject_to_addTransaction"
+            app:destination="@id/addTransaction" />
+    </fragment>
+    <fragment
+        android:id="@+id/collaborate"
+        android:name="org.samsara.project.Collaborate"
+        android:label="Collaborate" />
+    <fragment
+        android:id="@+id/allProjects"
+        android:name="org.samsara.project.AllProjects"
+        android:label="All Projects"
+        tools:layout="@layout/all_projects" >
+        <action
+            android:id="@+id/action_allProjects_to_addProject"
+            app:destination="@id/addProject" />
+        <action
+            android:id="@+id/action_allProjects_to_addTransaction"
+            app:destination="@id/addTransaction" />
+        <action
+            android:id="@+id/action_allProjects_to_projectDescription"
+            app:destination="@id/projectDescription" />
+    </fragment>
+    <fragment
+        android:id="@+id/addTransaction"
+        android:name="org.samsara.transaction.AddTransaction"
+        android:label="Add Transaction"
+        tools:layout="@layout/add_transaction" >
+        <action
+            android:id="@+id/action_addTransaction_to_allProjects"
+            app:destination="@id/allProjects" />
+        <action
+            android:id="@+id/action_addTransaction_to_allCategories"
+            app:destination="@id/allCategories" />
+    </fragment>
+    <fragment
+        android:id="@+id/addCategory"
+        android:name="org.samsara.category.AddCategories"
+        android:label="Add Category"
+        tools:layout="@layout/fragment_add_categories" >
+        <action
+            android:id="@+id/action_addCategories_to_addTransaction"
+            app:destination="@id/addTransaction" />
+        <action
+            android:id="@+id/action_addCategory_to_allProjects"
+            app:destination="@id/allProjects" />
+    </fragment>
+    <fragment
+        android:id="@+id/projectDescription"
+        android:name="org.samsara.project.ProjectDescription"
+        android:label="project_description"
+        tools:layout="@layout/project_description" >
+        <action
+            android:id="@+id/action_projectDescription_to_allProjects"
+            app:destination="@id/allProjects" />
+    </fragment>
+    <fragment
+        android:id="@+id/summary"
+        android:name="org.samsara.summary.Summary"
+        android:label="Summary"
+        tools:layout="@layout/summary" >
+        <action
+            android:id="@+id/action_summary_to_allProjects"
+            app:destination="@id/allProjects" />
+    </fragment>
+    <fragment
+        android:id="@+id/reportCategory"
+        android:name="org.samsara.reports.ReportCategory"
+        android:label="Report"
+        tools:layout="@layout/report_category" />
+</navigation>
